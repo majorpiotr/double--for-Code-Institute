@@ -1,0 +1,13 @@
+.heart img
+{
+    width: 30%;
+    height: 30%;
+    transition-property: width, height;
+    transition: ease-in;
+    transition-duration: 1s;
+}
+.heart img:hover
+{
+    width: 60%;
+    height: 60%;
+}
